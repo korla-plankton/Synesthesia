@@ -46,3 +46,25 @@
 1. Clone the repository:
    ```bash
    git clone https://github.com/korla-plankton/Synesthesia.git
+
+## 📱 Android App
+
+This repository now includes a minimal Android implementation located in the `android` directory. It demonstrates how sensors can drive both audio and visual output on a phone.
+
+### Building
+
+1. Open the `android` directory with Android Studio **or** run from the command line:
+   ```bash
+   cd android
+   gradle assembleDebug
+   ```
+   The build requires access to the standard Android Gradle plugins and may need an internet connection the first time it runs.
+
+### Running Tests
+
+Unit tests for the Android module can be executed with:
+
+```bash
+cd android
+gradle test
+```
